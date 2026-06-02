@@ -1,0 +1,49 @@
+/* ============================================================
+   EXERCISE: CSS Selectors
+   ============================================================
+
+   Work through the TODOs.
+   Each one introduces a different way to target elements.
+
+============================================================ */
+
+/* --- Base styles (already done for you) --- */
+
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  color: #222;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+p {
+  color: #555;
+  font-size: 0.95rem;
+}
+.highlight {
+  background-color: #fffbdd;
+  border-left: #d0994d 4px solid;
+}
+#intro {
+  font-style: italic;
+}
+.card p {
+  color: #444;
+}
+
+.card.highlight {
+  font-weight: bolder;
+}
+
+strong {
+  color: red !important;
+}
+.card strong {
+  color: steelblue; /* this rule already exists — don't touch it */
+}

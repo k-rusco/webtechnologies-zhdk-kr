@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+  color: #efc5c5;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  background-color: #210202;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #b50808;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-card {
+  text-align: left !important;
+  padding-right: 45px;
+  margin: 3rem 0;
+}
+
+.two-columns {
+  display: flex;
+  gap: 40px;
+}
+
+.credit-div {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.credit-div > a > img {
+  width: 10%;
+  position: relative;
+  top: 35px;
+  padding-left: 12px;
+}
