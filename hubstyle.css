@@ -7,8 +7,8 @@ body {
   height: 100vh;
   margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
 }
 a {
   margin-bottom: 12px;
